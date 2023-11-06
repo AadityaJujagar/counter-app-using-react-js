@@ -28,7 +28,7 @@ function App() {
         >
           -
         </button>
-        <div>{count}</div>
+        <div className="100vw">{count}</div>
         <button
           onClick={incHandler}
           className="border-l-2 text-center w-20 border-[#bfbfbf] text-5xl"
